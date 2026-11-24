@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ModelMix — One room. Multiple minds.</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101323; --panel:#191f35; --muted:#aab2ca; --accent:#9b8cff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at 20% 0%,#29224d,var(--bg) 48%); color:#f7f7ff; }
+    main { width:min(980px,92%); margin:0 auto; padding:64px 0; }
+    .tag { display:inline-block; padding:7px 12px; border:1px solid #554b83; border-radius:99px; color:#d8d0ff; font-size:13px; }
+    h1 { font-size:clamp(42px,8vw,76px); line-height:1; margin:22px 0; letter-spacing:-3px; }
+    h1 span { color:var(--accent); }
+    p { color:var(--muted); font-size:18px; line-height:1.6; max-width:650px; }
+    .panel { margin-top:36px; padding:26px; background:rgba(25,31,53,.92); border:1px solid #343b5a; border-radius:22px; }
+    .models { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+    .model { padding:10px 14px; background:#252d49; border-radius:12px; color:#e7e5ff; }
+    .button { display:inline-block; margin-top:12px; padding:13px 19px; border-radius:12px; background:var(--accent); color:#17142b; font-weight:700; text-decoration:none; }
+    small { display:block; margin-top:24px; color:#8e97b2; line-height:1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="tag">THE MULTI-AI WORKSPACE</span>
+    <h1>One room.<br><span>Multiple minds.</span></h1>
+    <p>Meet ModelMix: a simpler way to compare perspectives from different AI assistants, explore ideas, and bring the strongest answers together.</p>
+    <section class="panel">
+      <h2>Welcome to the AI Debate Room</h2>
+      <p>Imagine several AI assistants examining the same question, respectfully challenging one another, and helping you see the strongest arguments.</p>
+      <div class="models">
+        <span class="model">OpenAI</span><span class="model">Claude</span><span class="model">Gemini</span><span class="model">More perspectives</span>
+      </div>
+      <p><strong>Coming next:</strong> live model connections, moderated debates, accounts, and subscription plans.</p>
+      <a class="button" href="mailto:hello@modelmix.example?subject=ModelMix%20updates">I'm interested</a>
+      <small>This is an early visual starter page. The AI providers, debate functionality, user accounts, and payments are not connected yet. No subscription is being sold on this page.</small>
+    </section>
+  </main>
+</body>
+</html>
